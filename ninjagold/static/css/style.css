@@ -1,0 +1,126 @@
+.container {
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  width: 73rem;
+}
+.card {
+  width: fit-content;
+  margin: 0.5rem;
+  min-height: 26rem;
+  border-radius: 3%;
+  border: 0.1rem solid #858383;
+  -webkit-box-shadow: 2px 2px 5px #9e9e9c;
+  -moz-box-shadow: 2px 2px 5px #9e9e9c;
+  background: url("../img/fondo1.png");
+}
+.card-title {
+  font-family: "Tangerine", serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-shadow: 0.3rem 0.3rem 0.3rem #aaa;
+}
+.card-body {
+  vertical-align: text-top;
+  text-align: center;
+  color: #463636;
+}
+.card-text {
+  margin-bottom: 1.5rem;
+}
+
+.counter_gold {
+  background: url("../img/fondo1.png");
+  width: 15rem;
+}
+
+.btn {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcuLHMIJAwURzjCZJrC4YtTcx7eL-WrggKJA&usqp=CAU");
+  border: none;
+  -webkit-box-shadow: 2px 2px 5px #9e9e9c;
+  -moz-box-shadow: 2px 2px 5px #9e9e9c;
+  position: absolute;
+  right: 1.5rem;
+  margin-bottom: 14rem;
+}
+#reset {
+  width: fit-content;
+  margin-right: 12rem;
+}
+
+.imagen {
+  width: 12rem;
+  height: 12rem;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin: 1.5rem 1.5rem 0rem 1.5rem;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+.golden {
+  height: 1.7rem;
+  width: 1.7rem;
+  border-radius: 50%;
+  -webkit-animation: 5s rotate linear infinite;
+  animation: 5s rotate linear infinite;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+#foto1 {
+  text-align: right;
+}
+
+#biggold {
+  height: 3.2em;
+  width: 3.2rem;
+  margin-top: 1rem;
+}
+
+#tit {
+  margin: 0 auto;
+  width: 35rem;
+}
+
+#tablero {
+  background-image: url("https://easyengineering.net/wp-content/uploads/2017/07/Dark-Brown-Background-Wallpaper-Art-dark-brown-land-free-.jpg");
+  border-radius: 2%;
+}
+
+#act {
+  margin: 0 auto;
+  margin-left: 1.1rem;
+  min-width: 68.4rem;
+  height: 8rem;
+  border: 0.1rem solid #858383;
+  -webkit-box-shadow: 2px 2px 5px #9e9e9c;
+  -moz-box-shadow: 2px 2px 5px #9e9e9c;
+  background: url("../img/fondo1.png");
+}
+
+.txt {
+  font-size: 2.5rem;
+  font-family: "Tangerine", serif;
+  font-weight: 200;
+  color: #e1e4cf;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+.green {
+  color: green;
+  font-weight: bold;
+}
+
+.emoji {
+  width: 0.5rem;
+  height: 0.5rem;
+}
